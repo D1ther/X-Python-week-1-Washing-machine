@@ -1,2 +1,6 @@
 # X-Python-week-1-Washing-machine
-X-Python week 1
+# Washing machine simulator
+
+# Основний функціонал:
+
+Основним функціоналом є симуляція етапів прання пральної машини

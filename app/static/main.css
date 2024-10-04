@@ -1,0 +1,29 @@
+.washing_bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.washing_bt input[type="submit"] {
+    background-color: #4CAF50; /* Зелений колір, що нагадує кнопку старту */
+    border: 2px solid #388E3C; /* Більш темна рамка для контрасту */
+    border-radius: 50%; /* Робимо кнопку круглою */
+    width: 200px;
+    height: 200px;
+    font-size: 20px; /* Збільшуємо розмір тексту */
+    color: #f0f0f0;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Додаємо тінь */
+}
+
+.washing_bt input[type="submit"]:hover {
+    background-color: #45A049; /* Трохи яскравіший колір при наведенні */
+}
+
+.washing_bt input[type="submit"]:active {
+    transform: scale(0.95); /* Легке зменшення при натисканні, як на справжній кнопці */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Зменшення тіні */
+}

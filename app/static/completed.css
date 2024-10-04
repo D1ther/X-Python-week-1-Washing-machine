@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column; /* Вертикальне вирівнювання тексту і картинки */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Світлий фон */
+    overflow: hidden; /* Приховуємо все, що виходить за межі екрану */
+}
+
+h1 {
+    font-size: 48px; /* Розмір шрифту заголовка */
+    color: #333; /* Колір тексту */
+    text-transform: uppercase; /* Великі літери */
+    font-weight: bold; /* Жирний шрифт */
+    margin-bottom: 20px; /* Відстань між заголовком і зображенням */
+}
+
+img {
+    width: 400px; /* Розмір картинки */
+    height: auto; /* Автоматичне збереження пропорцій */
+    animation: levitate 2s ease-in-out infinite; /* Анімація левітації */
+    position: relative; /* Встановлення позиції */
+    background: none; /* Вимикаємо фон на зображенні */
+    border: none; /* Вимикаємо рамки */
+    padding: 0; /* Вимикаємо можливі внутрішні відступи */
+}
+
+@keyframes levitate {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px); /* Підняття зображення на 20px */
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
